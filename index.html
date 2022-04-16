@@ -1,55 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
     <title>Todo-App-List</title>
-  </head>
+</head>
 
-  <body>
+<body>
     <header>
-      <h1>Task List 2022</h1>
-      <form class="task-form-class" name="taskFormClass" id="task-form-id">
-        <!-- <label for="new-task-id">New task</label> -->
-        <input
-          type="text"
-          class="new-task-input"
-          name="newTaskInput"
-          id="new-task-id"
-          placeholder="What you have planned?"
-        />
+        <h1>Task List 2022</h1>
+        <form class="task-form-class" name="taskFormClass" id="task-form-id">
+            <!-- <label for="new-task-id">New task</label> -->
+            <input type="text" class="new-task-input" name="newTaskInput" id="new-task-id"
+                placeholder="What you have planned?" />
 
-        <!-- <label for="add-new-task">Add new task</label> -->
+            <!-- <label for="add-new-task">Add new task</label> -->
 
-        <input
-          type="submit"
-          class="add-new-task-input"
-          name="addNewTask"
-          id="add-new-task"
-          value="add task"
-        />
-      </form>
+            <input type="submit" class="add-new-task-input" name="addNewTask" id="add-new-task" value="add task" />
+        </form>
     </header>
 
     <main>
-      <section class="task-list">
-        <h2>Tasks</h2>
-        <div class="tasks" name="tasks" id="tasks">
-          <div class="task">
-            <div class="content">
-              <input type="text" class="text" value="My shiny task" readonly />
+        <section class="task-list">
+            <h2>Tasks</h2>
+            <div class="tasks" name="tasks" id="tasks">
+                <div class="task">
+                    <div class="content">
+                        <input type="text" class="text" value="My shiny task" readonly />
+                    </div>
+                    <div class="actions">
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                    </div>
+                </div>
+                <div class="task">
+                    <div class="content">
+                        <input type="text" class="text" value="My shiny task" readonly />
+                    </div>
+                    <div class="actions">
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                    </div>
+                </div>
+                <div class="task">
+                    <div class="content">
+                        <input type="text" class="text" value="My shiny task" readonly />
+                    </div>
+                    <div class="actions">
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                    </div>
+                </div>
+                <div class="task">
+                    <div class="content">
+                        <input type="text" class="text" value="My shiny task" readonly />
+                    </div>
+                    <div class="actions">
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                    </div>
+                </div>
+                <div class="task">
+                    <div class="content">
+                        <input type="text" class="text" value="My shiny task" readonly />
+                    </div>
+                    <div class="actions">
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                    </div>
+                </div>
             </div>
-            <div class="actions">
-              <button class="edit">Edit</button>
-              <button class="delete">Delete</button>
-            </div>
-          </div>
-        </div>
-      </section>
+        </section>
     </main>
 
     <script src="./todo.js"></script>
-  </body>
+</body>
+
 </html>
